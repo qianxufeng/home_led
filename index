@@ -60,7 +60,7 @@
                   e.preventDefault();
                 } else {
                   $http.post(
-                    'http://api.easylink.io/v1/device/devices',
+                    'http://api.easylink.io/v1/device/modify',
                     {
                       device_id : item.device_id,
                       alias     : $scope.data.alias
